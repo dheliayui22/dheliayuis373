@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: grey;
+	font-family: sans-serif;
+}
+
+header, 
+section#profil, 
+section#activities, footer {
+	width: 700px;
+	margin: auto;
+	padding: 15px;
+}
+header,
+section#profil, 
+section#activities {
+	background-color: white;
+
+}
+
+section#profil h1, section#activities h1 {
+	margin-bottom: 20px;
+}
+
+section#profil h1, 
+section#activities h1 {
+
+	text-align: center;
+	font-size: 32px;
+	background-color: grey;
+	color: white;
+	padding: 10px;
+}
+
+#profil-content {
+	width: 700px;
+	margin: auto;
+}
+
+#profil-content img {
+	width: 120px;
+	float: left;
+	margin-right: 20px;
+}
+
+#profil-content #deskripsi-profil {
+	width: 450px;
+	float: left;
+}
+
+#profil-content #deskripsi-profil p {
+	text-align: justify;
+}
+
+.item-activity {
+	padding: 10px;
+}
+
+.item-activity img {
+	width: 680px;
+}
+.item-activity p {
+	display: block;
+	margin: auto;
+}
+
+.item-activity p {
+	text-align: justify;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+footer {
+	background-color: white;
+}
+
+
+footer a {
+	display: block;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	text-decoration: none;
+	width: 200px;
+	margin: auto;
+}
+.fix-container {
+	clear: both;
+}
